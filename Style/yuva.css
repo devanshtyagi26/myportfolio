@@ -14,7 +14,7 @@
 }
 
 .home__description {
-    text-align: center;
+    text-align: justify;
 }
 
 @media screen and (max-width: 600px) {
