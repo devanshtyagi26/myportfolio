@@ -1,0 +1,24 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#home {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.home__description {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #home {
+        width: 85%;
+    }
+  }
