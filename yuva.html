@@ -1,177 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="stylesheet" href="Style/swiper-bundle.min.css" />
     <link rel="stylesheet" href="Style/newcss.css" />
     <link rel="stylesheet" href="Style/style.css" />
     <link rel="stylesheet" href="Style/yuva.css" />
     <link rel="stylesheet" href="Style/imagePortfolio.css" />
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=database" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=stylus_note" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=database"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=stylus_note"
+    />
+  </head>
 
-<body oncontextmenu="return false">
+  <body oncontextmenu="return false">
     <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">Devansh Tyagi</a>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list grid">
-                    <li class="nav__item">
-                        <a href="./index.html#home" class="nav__link active-link">
-                            <i class="uil uil-estate nav__icon"></i>Home
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./index.html#about" class="nav__link">
-                            <i class="uil uil-user nav__icon"></i>About
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./index.html#skills" class="nav__link">
-                            <i class="uil uil-file-alt nav__icon"></i>Skills
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./index.html#qualification" class="nav__link">
-                            <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./index.html#portfolio" class="nav__link">
-                            <i class="uil uil-scenery nav__icon"></i>Projects
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./index.html#contact" class="nav__link">
-                            <i class="uil uil-message nav__icon"></i>Contact-Me
-                        </a>
-                    </li>
-                </ul>
-                <i class="uil uil-times nav__close" id="nav-close"></i>
-            </div>
-            <div class="nav__btns">
-                <!-- Theme change button -->
-                <i class="uil uil-moon change-theme" id="theme-button"></i>
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Devansh Tyagi</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="./index.html#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="./index.html#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="./index.html#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="./index.html#qualification" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="./index.html#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>Projects
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="./index.html#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Contact-Me
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="uil uil-apps"></i>
-                </div>
-            </div>
-        </nav>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
     </header>
     <!-- main-->
     <main class="main">
-        <!--========================= Home =====================-->
+      <!--========================= Home =====================-->
 
-        <section class="home section" id="home">
-            <h1 class="home__title">Core Graphics Team: YUVA Delhi</h1>
-            <p class="home__description">
-                As a Core Graphics Designer for YUVA Delhi's flagship event, <strong>Vimarsh </strong> , I was
-                responsible for creating visually compelling designs that shaped the event's identity. I designed
-                promotional materials such as posters, banners, and social media assets while collaborating with
-                multidisciplinary teams to ensure consistency and creativity. My work contributed to enhancing the
-                event's visibility and engagement, and I continue to support ,<strong> YUVA Delhi's </strong> creative
-                initiatives with innovative design solutions.
-            </p>
-        </section>
+      <section class="home section" id="home">
+        <h1 class="home__title">Core Graphics Team: YUVA Delhi</h1>
+        <p class="home__description">
+          As a Core Graphics Designer for YUVA Delhi's flagship event,
+          <strong>Vimarsh </strong> , I was responsible for creating visually
+          compelling designs that shaped the event's identity. I designed
+          promotional materials such as posters, banners, and social media
+          assets while collaborating with multidisciplinary teams to ensure
+          consistency and creativity. My work contributed to enhancing the
+          event's visibility and engagement, and I continue to support ,<strong>
+            YUVA Delhi's
+          </strong>
+          creative initiatives with innovative design solutions.
+        </p>
+      </section>
 
-        <div class="gallery">
+      <div class="gallery">
+        <img
+          class="image-thumbnail four-grid-cells"
+          src="Src/Images/YUVA/A KATHAK PERFORMANCE.png"
+        />
 
-            <img class="image-thumbnail four-grid-cells" src="Src/Images/YUVA/A KATHAK PERFORMANCE.png" />
+        <img class="image-thumbnail" src="Src/Images/YUVA/1 (3).png" />
 
-            <img class="image-thumbnail" src="Src/Images/YUVA/1 (3).png" />
+        <img
+          class="image-thumbnail wide-image"
+          src="Src/Images/YUVA/1 (4).png"
+        />
 
-            <img class="image-thumbnail wide-image" src="Src/Images/YUVA/1 (4).png" />
+        <img class="image-thumbnail" src="Src/Images/YUVA/1.png" />
 
-            <img class="image-thumbnail" src="Src/Images/YUVA/1.png" />
+        <img class="image-thumbnail" src="Src/Images/YUVA/3.png" />
+        <img class="image-thumbnail" src="Src/Images/YUVA//4 (2).png" />
 
-            <img class="image-thumbnail" src="Src/Images/YUVA/3.png" />
-            <img class="image-thumbnail" src="Src/Images/YUVA//4 (2).png" />
+        <img class="image-thumbnail" src="Src/Images/YUVA/2 (2).png" />
 
-            <img class="image-thumbnail" src="Src/Images/YUVA/2 (2).png" />
+        <img
+          class="wide-image image-thumbnail"
+          src="Src/Images/YUVA/2 (3).png"
+        />
 
-            <img class="wide-image image-thumbnail" src="Src/Images/YUVA/2 (3).png" />
-
-            <img class="wide-image image-thumbnail" src="Src/Images/YUVA/4.png" />
-            <img class="image-thumbnail" src="Src/Images/YUVA/2.png" />
-            <img class="image-thumbnail" src="Src/Images/YUVA/5.png" />
-            <img class="image-thumbnail" src="Src/Images/YUVA/6.png" />
-            <img class="image-thumbnail" src="Src/Images/YUVA/8 (2).png" />
-            <img class="image-thumbnail" src="Src/Images/YUVA/8.png" />
-            <img class="image-thumbnail" src="Src/Images/YUVA/ABHIVYAKTI.png" />
-            <img class="image-thumbnail" src="Src/Images/YUVA/Artist Template - 1.png" />
-            <img class="image-thumbnail" src="Src/Images/YUVA/malkhambha.png" />
-            <img class="image-thumbnail" src="Src/Images/YUVA/Protest against Human Right Violation in BANGLADESH.png" />
-            <img class="banner-image image-thumbnail" src="Src/Images/YUVA/Celebration of Veer Lachit Diwas (5).png" />
-            <img class="wide-image image-thumbnail" src="Src/Images/YUVA/9.png" />
-            <img class="wide-image image-thumbnail" src="Src/Images/YUVA/Renewed 2.png" />
-            <img class="image-thumbnail" src="Src/Images/YUVA/1 (2).png" />
-            <img class="wide-image image-thumbnail" src="Src/Images/YUVA/SADHO.png" />
-            <img class="image-thumbnail" src="Src/Images/YUVA/Untitled design (14).png" />
-            <img class="image-thumbnail" src="Src/Images/YUVA/VIMARSH 2024.png" />
-            <!-- The Modal -->
-<div id="myModal" class="modal">
-    <span class="close">&times;</span>
-    <img class="modal-content" id="img01">
-    <div id="caption"></div>
-  </div>
+        <img class="wide-image image-thumbnail" src="Src/Images/YUVA/4.png" />
+        <img class="image-thumbnail" src="Src/Images/YUVA/2.png" />
+        <img class="image-thumbnail" src="Src/Images/YUVA/5.png" />
+        <img class="image-thumbnail" src="Src/Images/YUVA/6.png" />
+        <img class="image-thumbnail" src="Src/Images/YUVA/8 (2).png" />
+        <img class="image-thumbnail" src="Src/Images/YUVA/8.png" />
+        <img class="image-thumbnail" src="Src/Images/YUVA/ABHIVYAKTI.png" />
+        <img
+          class="image-thumbnail"
+          src="Src/Images/YUVA/Artist Template - 1.png"
+        />
+        <img class="image-thumbnail" src="Src/Images/YUVA/malkhambha.png" />
+        <img
+          class="image-thumbnail"
+          src="Src/Images/YUVA/Protest against Human Right Violation in BANGLADESH.png"
+        />
+        <img
+          class="banner-image image-thumbnail"
+          src="Src/Images/YUVA/Celebration of Veer Lachit Diwas (5).png"
+        />
+        <img class="wide-image image-thumbnail" src="Src/Images/YUVA/9.png" />
+        <img
+          class="wide-image image-thumbnail"
+          src="Src/Images/YUVA/Renewed 2.png"
+        />
+        <img class="image-thumbnail" src="Src/Images/YUVA/1 (2).png" />
+        <img
+          class="wide-image image-thumbnail"
+          src="Src/Images/YUVA/SADHO.png"
+        />
+        <img
+          class="image-thumbnail"
+          src="Src/Images/YUVA/Untitled design (14).png"
+        />
+        <img class="image-thumbnail" src="Src/Images/YUVA/VIMARSH 2024.png" />
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01" />
+          <div id="caption"></div>
         </div>
+      </div>
     </main>
     <!--================== Footer ===============-->
     <footer class="footer">
-        <div class="footer__bg">
-            <div class="footer__container container grid">
-                <div>
-                    <h1 class="footer__title">Devansh Tyagi</h1>
-                    <span class="footer__subtitle">Computer Science (Hons.) Student</span>
-                </div>
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Devansh Tyagi</h1>
+            <span class="footer__subtitle"
+              >Computer Science (Hons.) Student</span
+            >
+          </div>
 
-                <ul class="footer__links">
-                    <li>
-                        <a href="./index.html#qualification" class="footer__link">Qualification</a>
-                    </li>
-                    <li>
-                        <a href="./index.html#portfolio" class="footer__link">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="./index.html#contact" class="footer__link">Contact</a>
-                    </li>
-                </ul>
+          <ul class="footer__links">
+            <li>
+              <a href="./index.html#qualification" class="footer__link"
+                >Qualification</a
+              >
+            </li>
+            <li>
+              <a href="./index.html#portfolio" class="footer__link"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="./index.html#contact" class="footer__link">Contact</a>
+            </li>
+          </ul>
 
-                <div class="footer__socials">
-                    <a href="https://www.inkedin.com/tyagi-devansh/" class="footer__social" target="__blank">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
+          <div class="footer__socials">
+            <a
+              href="https://www.inkedin.com/tyagi-devansh/"
+              class="footer__social"
+              target="__blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
 
-                    <a href="https://github.com/devanshtyagi26" target="__blank" class="footer__social">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                </div>
-            </div>
-
-            <p class="footer__copy">&#169; Devansh. All right reserved</p>
+            <a
+              href="https://github.com/devanshtyagi26"
+              target="__blank"
+              class="footer__social"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
         </div>
+
+        <p class="footer__copy">&#169; Devansh. All right reserved</p>
+      </div>
     </footer>
-
-
 
     <!--================== SCROLL TOP ==================-->
     <a href="#" class="scrollup" id="scroll-up">
-        <i class="uil uil-arrow-up scrollup__icon"></i>
+      <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
 
-    <script type="text/javascript" src="Javascript/swiper-bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+    <script
+      type="text/javascript"
+      src="Javascript/swiper-bundle.min.js"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/2205d59d52.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="Javascript/ptj.js"></script>
     <script src="Javascript/modal.js"></script>
-</body>
-
+  </body>
 </html>
