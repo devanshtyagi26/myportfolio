@@ -685,31 +685,29 @@
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form id="contactForm" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
-                            <label for="Name" class="content__label">Name</label>
-                            <input type="text" class="contact__input " placeholder="John Doe" />
+                            <label for="name" class="content__label">Name</label>
+                            <input id="name" type="text" class="contact__input" placeholder="John Doe" required />
                         </div>
-
+                
                         <div class="contact__content">
-                            <label for="Email" class="content__label">Email</label>
-                            <input type="Email" class="contact__input" placeholder="yourname@example.com" />
+                            <label for="email" class="content__label">Email</label>
+                            <input id="email" type="email" class="contact__input" placeholder="yourname@example.com" required />
                         </div>
                     </div>
-
+                
                     <div class="contact__content">
-                        <label for="" class="content__label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"
-                            placeholder="Your Message Here"></textarea>
+                        <label for="message" class="content__label">Message</label>
+                        <textarea id="message" rows="7" class="contact__input" placeholder="Your Message Here" required></textarea>
                     </div>
-
+                
                     <div>
-                        <a href=" mailto: tyagidevansh3@gmail.com?subject=Testing out mailto! &body=This is only a test!"
-                            class="button button--flex">
+                        <button type="button" id="sendButton" class="button button--flex">
                             Send Message
                             <i class="uil uil-message button__icon"></i>
-                        </a>
+                        </button>
                     </div>
                 </form>
             </div>
@@ -761,6 +759,7 @@
     <script type="text/javascript" src="Javascript/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
     <script src="Javascript/ptj.js"></script>
+    <script src="Javascript/email.js"></script>
 </body>
 
 </html>
