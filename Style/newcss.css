@@ -707,6 +707,12 @@ img {
   border-radius: 0.5rem;
   justify-self: center;
 }
+/* Desktop styles (e.g., 1024px and above) */
+@media screen and (min-width: 1024px) {
+  .portfolio__img {
+    width: 450px; /* Example larger size for desktop */
+  }
+}
 .portfolio__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
